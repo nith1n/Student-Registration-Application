@@ -1,0 +1,100 @@
+:root {
+  --field-height: 36px;
+  --field-border-radius: 4px;
+  
+}
+header {
+  display: flex;
+  justify-content: center;
+  padding-top: 60px;
+  padding-bottom: 30px;
+  color: #04aa6d;
+}
+header > h1 {
+  font-size: 40px;
+  font-weight: 600;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  /* padding: 20px; */
+}
+
+.form-item {
+  display: flex;
+  width: 100%;
+}
+.form-item > * {
+  flex-basis: 100%;
+}
+
+.gender-item {
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  /* height: var(--field-height); */
+  border: var(--default-border-style);
+  border-radius: var(--field-border-radius);
+  background-color: #fff;
+  margin: 5px;
+  padding-left: 8px;
+}
+.gender-item > label {
+  width: 100%;
+  padding: 8.5px;
+}
+
+#name,
+.class-group-item,
+.dateofbirth-item {
+  height: var(--field-height);
+  border: var(--default-border-style);
+  border-radius: var(--field-border-radius);
+  background-color: #fff;
+  margin: 5px;
+  padding: 6px;
+}
+
+.field-group-desc {
+  margin-top: 5px;
+  font-size: 0.8em;
+  margin-left: 5px;
+}
+
+.message-container,
+.succes-container {
+  font-weight: 200;
+  font-size: 12px;
+  padding-left: 6px;
+  padding-top: 5px;
+  height: 30px;
+}
+.error {
+  color: red;
+}
+
+.sumbit-button {
+  height: var(--field-height);
+  border: none;
+  border-radius: var(--field-border-radius);
+  background-color: var(--primary-color);
+  color: white;
+  padding: 5px 25px;
+  cursor: pointer;
+  margin: 5px;
+  font-weight: bold;
+}
+
+.sumbit-button:active {
+  transform: translatey(1px);
+
+  background-color: #027249;
+}
+
+/* Media Query */
+
+@media only screen and (max-width: 900px) {
+  header {
+    padding-top: 0px;
+  }
+}
