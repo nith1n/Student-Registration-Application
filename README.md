@@ -9,7 +9,7 @@ A web application for new student registration and existing student data retriev
 
 The project is developed using spring boot as the backend service, react.js as the frontend technology and mongodb as the database.
 
-In order to run the project, the user needs to have a mongodb installed locally. The instructions to install mongodb can be found below. After that follow the sequence :
+In order to run the project, the user needs to have mongodb installed locally. The instructions to install mongodb can be found below. After that follow the sequence :
 
 ## Usage
 
@@ -80,7 +80,6 @@ request body : <br>
 			"dobDay":"08",
 			"dobMonth":"07",
 			"dobYear":"2014",
-			"dateOfBirth":"08/07/2014",
 			"grade" : "II",
 			"division":"B",
 			"gender":"Male"
@@ -88,7 +87,7 @@ request body : <br>
 success response  : <br>
     code : 200 <br>
     content-type : text/plain <br>
-		content : New Student 'John Doe' has been Added <br>
+    content : New Student 'John Doe' has been Added <br>
 
 
 
