@@ -9,7 +9,7 @@ A web application for new student registration and existing student data retriev
 
 The project is developed using spring boot as the backend service, react.js as the frontend technology and mongodb as the database.
 
-In order to run the project, the user needs to have mongodb installed locally. The instructions to install mongodb can be found below. After that follow the sequence :
+In order to run the project, the user needs to have mongodb installed locally.
 
 ## Usage
 
