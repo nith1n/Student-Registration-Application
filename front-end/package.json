@@ -35,5 +35,5 @@
       "last 1 safari version"
     ]
   },
-  "proxy":"${API_PROXY}"
+  "proxy":"$API_PROXY"
 }
