@@ -7,7 +7,7 @@ function App() {
   const [studentData, setStudentData] = useState([]);
 
   const fetchStudentData = async () => {
-    const data = await fetch("http://localhost:8080/list").then((response) =>
+    const data = await fetch("/list").then((response) =>
       response.json()
     );
     setStudentData(data);
@@ -15,7 +15,7 @@ function App() {
   };
 
   const createStudent = async (body) => {
-    const data = await fetch("http://localhost:8080/create", {
+    const data = await fetch("/create", {
       headers: {
         "Content-Type": "application/json",
       },
