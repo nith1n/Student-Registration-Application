@@ -35,5 +35,9 @@
       "last 1 safari version"
     ]
   },
-  "proxy":"https://e-portal-students.herokuapp.com"
+  "proxies": {
+    "/api/": {
+      "origin": "${API_URL}"
+    }
+  }
 }
