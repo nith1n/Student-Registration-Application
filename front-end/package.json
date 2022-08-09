@@ -35,9 +35,5 @@
       "last 1 safari version"
     ]
   },
-  "proxies": {
-    "/api/": {
-      "origin": "${API_URL}"
-    }
-  }
+  "proxy": "${API_URL}"
 }
